@@ -1,0 +1,26 @@
+{
+  "name": "sxsw-schedule-csv",
+  "version": "1.0.0",
+  "description": "Web scraper for SXSW 2016 schedule",
+  "main": "venues-scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nerik/sxsw-schedule-csv.git"
+  },
+  "author": "nerik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerik/sxsw-schedule-csv/issues"
+  },
+  "homepage": "https://github.com/nerik/sxsw-schedule-csv#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "json2csv": "^3.2.0",
+    "moment": "^2.11.2",
+    "polyline": "^0.2.0",
+    "underscore": "^1.8.3"
+  }
+}
